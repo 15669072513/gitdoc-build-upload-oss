@@ -32,7 +32,6 @@ runs:
     - name: npm install and build
       run: |
         npm install
-        npm run build
       shell: bash
       env:
         CI: true
