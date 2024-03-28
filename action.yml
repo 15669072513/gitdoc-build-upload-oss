@@ -31,7 +31,7 @@ runs:
     # npm install
     - name: npm install and build
       run: |
-        npm install
+        npm install && npm run build
       shell: bash
       env:
         CI: true
